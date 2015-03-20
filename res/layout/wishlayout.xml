@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <com.facebook.widget.ProfilePictureView
+        android:id="@+id/wishUserImage"
+        android:layout_width="69dp"
+        android:layout_height="69dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp" >
+    </com.facebook.widget.ProfilePictureView>
+
+    <TextView
+        android:id="@+id/tvWish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/wishUserImage"
+        android:layout_below="@+id/wishUserImage"
+        android:layout_marginTop="10dp"
+        android:text="TextView"
+        android:textSize="20sp" 
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/tvWisherName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/wishUserImage"
+        android:layout_centerHorizontal="true"
+        android:text="TextView"
+        android:textSize="18sp" />
+    
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Login</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="tap">Tap the button to share something</string>
+    <string name="app_id">815548318481668</string>
+    <string name="title_activity_wall_posts">WallPosts</string>
+    <string name="title_activity_time_line">TimeLine</string>
+
+</resources>
